@@ -35,7 +35,7 @@ jobs:
           path: remark-lint-report.json
 
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: file
           path: remark-lint-report.json
